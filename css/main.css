@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  hgroup {
+    margin: 25px 0px 20px;
+  }
+  .main-header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #002D72;
+  }
+  .logo img{
+    height: 77px;
+    float: left;
+    padding-left: 23px;
+    width: auto;
+  }
+  .header-text{
+    color: Red;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: -webkit-xxx-large;
+    position: absolute;
+    top: 13px;
+  }
