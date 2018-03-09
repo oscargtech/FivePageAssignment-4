@@ -30,3 +30,259 @@
     position: absolute;
     top: 13px;
   }
+
+  .footer{
+    width: 100%;
+    height: 80px;
+    display: block;
+    color: white;
+   
+    bottom: 0px;
+    background-color: #002D72;
+    overflow: auto;
+    text-align: center;
+    margin: auto;
+  }
+  .footer img {
+margin: auto;
+    height: 77px;
+    width: auto;
+    
+  }
+
+  .main-content{
+    height: 80%;
+    width: auto;
+    display: block;
+    background-color: rgb(39, 109, 215)
+  }
+
+  /*Left Sidebar*/
+  .left-sidebar {
+    float: left;
+    width: 145px;
+    height: 100%;
+    background-color: #a6192e;
+  }
+
+  .left-sidebar ul {
+    text-align: center;
+    display: block;
+  }
+
+  .left-sidebar li {
+    display: block;
+    width: 100%;
+    height: 94px;
+    border-bottom: 1px solid #FFF;
+  }
+
+  .left-sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+    transition-duration: 0.5s;
+  }
+
+  .left-sidebar ul li a:hover {
+    height: 76px;
+    color: #FFF;
+    opacity: 0.5;
+    background-color: rgb(122, 115, 112);
+  }
+  /*right sidebar*/
+  .sidebar-banner-text{
+    color: white;
+    text-align: center;
+
+  }
+  .right-sidebar{
+    float: right;
+    width: 145px;
+    height: 100%;
+    background-color: #a6192e;    
+  }
+  .right-sidebar ul {
+    text-align: center;
+    display: block;
+    height: 120px;
+  }
+
+  .right-sidebar li {
+    height: 91px;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #FFF;
+  }
+  .right-sidebar ul li img{
+    
+    width: 120px;
+  }
+  .Product-grid{
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+  }
+  .product img{
+    
+    width: 300px;
+    height: 165px;
+    border: 1px solid;
+    color: white;
+
+  }
+  
+  .Product-grid-container{
+    overflow: auto;
+  }
+
+
+
+  /*about page*/
+  .about{
+    text-align: center;
+
+    height:100%;
+  }
+  .campus{
+    width: 600px;
+    height: 400px;
+margin:auto;
+  }
+
+  /*contact*/
+  .contact{
+    text-align: center;
+  }
+  .contact h2{
+    margin: auto;
+    color: white;
+  }
+  .inputs{
+    text-align: center;
+
+  }
+  .inputs h2 {
+    color:white;
+  }
+  .contact-input{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 10px auto;
+  }
+  .button{
+    text-align: center;
+  }
+  .btn-submit{
+    padding: 15px 30px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+  }
+
+  /*product grid*/
+  .productg img{
+    width: 200px;
+    height: 125px;
+    border: 1px solid;
+    color: white;
+
+  }
+  .main-contentp{
+    height:auto;
+    width: auto;
+    display: block;
+    background-color: rgb(39, 109, 215)
+  }
+
+
+
+  /*gallery*/
+  .productg img{
+    
+    width: 330px;
+    height: 190px;
+    border: 1px solid;
+    color: white;
+
+  }
+
+
+  /* login page */
+
+  .login-input {
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    margin: 10px auto;
+  }
+
+  .btn-login {
+    padding: 15px 30px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+  }
+
+  .login-container {
+ 
+    padding: 16px;
+    width: 450px;
+    height: 700px;
+    background-color: #449a9a;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+  }
+
+  .login {}
+
+  .main-login-container {
+    width: 100%;
+    padding:0px !important;
+    margin:0px !important;
+    background-size: cover;
+    background-image: url('../Images/campus.jpg');
+  }
+
+  .bottom-login-container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+
+  .login-logo>img {
+    width: 100%;
+  }
+  .error {
+    display: none;
+    color: #FFF;
+    font-weight: bold;
+    background-color: #fabc00;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+  }
+  .main-container {
+    width: 99%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    overflow: auto;
+  }
+  
